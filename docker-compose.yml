@@ -1,0 +1,7 @@
+services:
+  carelink:
+    build: .
+    ports: ["8000:8000"]
+    volumes: ["carelink-data:/data"]
+volumes:
+  carelink-data:
